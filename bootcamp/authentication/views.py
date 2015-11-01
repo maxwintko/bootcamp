@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
-from bootcamp.auth.forms import SignUpForm
+from bootcamp.authentication.forms import SignUpForm
 from django.contrib.auth.models import User
 from bootcamp.feeds.models import Feed
 
